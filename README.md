@@ -56,6 +56,7 @@ Run PCA:
 
 ## 2.4 Run UMAP analysis
 UMAP analysis done with UMAP Python library [https://github.com/lmcinnes/umap](https://github.com/lmcinnes/umap)
+
 See: [01.code/umap_run.py](https://github.com/thirtysix/population_genetics_AADR/blob/master/01.code/umap_run.py)
 
 ## 2.5 Bokeh interactive visualization
