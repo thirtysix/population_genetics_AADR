@@ -9,7 +9,7 @@
 This repository provides scripts and results from an analysis of a starting set of 16,765 ancient and modern humans found at [AARD](https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data).
 
 Tools used to analyze the data:
- - [EigenSoft](https://github.com/DReichLab/EIG)
+ - [ADMIXTOOLS 2](https://github.com/uqrmaie1/admixtools)
  - [PLINK2](https://www.cog-genomics.org/plink/2.0/)
  - [UMAP](https://github.com/lmcinnes/umap)
 
@@ -28,7 +28,7 @@ Genotype data was retrieved from the Allen Ancient DNA Resource (AADR).  This da
 [https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data](https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data)
 
 ## 2.2 Converted from PACKEDANCESTRYMAP format to PLINK2 format (LARGE MEM REQUIREMENT)
-The ADMIXTOOLS R library was used to convert the binary PACKEDANCESTRYMAP format to "bfile" format suitable for PCA analysis in PLINK2.
+The [ADMIXTOOLS 2](https://github.com/uqrmaie1/admixtools) R library was used to convert the binary PACKEDANCESTRYMAP format to "bfile" format suitable for PCA analysis in PLINK2.
 These files are not included here due to size, but are not needed as downstream results are present.
 ```
 library("admixtools")
