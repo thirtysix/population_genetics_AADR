@@ -60,7 +60,9 @@ See: [01.code/umap_run.py](https://github.com/thirtysix/population_genetics_AADR
 
 ## 2.5 Bokeh interactive visualization
 See: [02.output/UMAP_bokeh](https://github.com/thirtysix/population_genetics_AADR/blob/master/02.output/UMAP_bokeh/main_umap.py)
+
 Run locally: `bokeh serve --show 02.output/main_umap.py`
+
 Visit deployed version on Heroku: [https://umap-aadr.herokuapp.com/main_umap](https://umap-aadr.herokuapp.com/main_umap)
 
 
