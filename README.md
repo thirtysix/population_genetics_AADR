@@ -2,8 +2,12 @@
 
 ## Interactive visualization of population genetics data for \~10,000 modern and ancient individuals.
 
-# 0. Deployed app
-[https://umap-aadr.herokuapp.com/main_umap](https://umap-aadr.herokuapp.com/main_umap)
+# 0. App
+Deployed on Heroku: [https://umap-aadr.herokuapp.com/main_umap](https://umap-aadr.herokuapp.com/main_umap)
+
+Can also run the app locally with bokeh serve:
+
+`bokeh serve --show population_genetics_AADR/02.output/main_umap.py`
 
 # 1. Background
 This repository provides scripts and results from an analysis of a starting set of 16,765 ancient and modern humans found at [AARD](https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data).
@@ -16,9 +20,6 @@ Tools used to analyze the data:
 Library used to generate the interactive visualization:
  - [Bokeh](https://github.com/bokeh/bokeh)
 
-
-Can also run the app locally with bokeh serve:
-`bokeh serve --show population_genetics_AADR/02.output/main_umap.py`
 
 
 # 2. Analysis
