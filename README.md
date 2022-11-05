@@ -50,15 +50,15 @@ The PLINK2 executable can be downloaded here: [https://www.cog-genomics.org/plin
 
 Convert from early PLINK format (bfile) to current format (pfile):
 
-`/PATH/TO/plink2 --bfile v52.2_1240K_public_PLINK --make-pgen --out v52.2_1240K_public_PLINK_PGEN`
+`/PATH/TO/plink2 --bfile v52.2_HO_public_PLINK --make-pgen --out v52.2_HO_public_PLINK_PGEN`
 
 Filter variants by genotype count and samples by genotype count:
 
-`/PATH/TO/plink2 --pfile v52.2_1240K_public_PLINK_PGEN --geno 0.1 --mind 0.3 --make-pgen --out v52.2_1240K_public_PLINK_PGEN_GENO10MIND30`
+`/PATH/TO/plink2 --pfile v52.2_HO_public_PLINK_PGEN --geno 0.1 --mind 0.3 --make-pgen --out v52.2_HO_public_PLINK_PGEN_GENO10MIND30`
 
 Run PCA:
 
-`/PATH/TO/plink2 --pfile v52.2_1240K_public_PLINK_PGEN_GENO10MIND30 --pca 20 approx biallelic-var-wts --threads 12 --out PCA_OUT`
+`/PATH/TO/plink2 --pfile v52.2_HO_public_PLINK_PGEN_GENO10MIND30 --pca 20 approx biallelic-var-wts --threads 12 --out PCA_OUT`
 
 
 ## 2.4 Run UMAP analysis
