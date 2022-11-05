@@ -9,6 +9,9 @@ Can also run the app locally with bokeh serve:
 
 `bokeh serve --show population_genetics_AADR/02.output/main_umap.py`
 
+
+![screen](https://raw.githubusercontent.com/thirtysix/population_genetics_AADR/master/main_umap.png)
+
 # 1. Background
 This repository provides scripts and results from an analysis of a starting set of 16,765 ancient and modern humans found at [AARD](https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data).
 
